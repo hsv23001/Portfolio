@@ -61,6 +61,13 @@ h2 {
   padding: 5px;
 }
 
+.schools {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 5px;
+}
+
 .school-card {
   border: 1px solid #ddd;
   padding: 15px;
