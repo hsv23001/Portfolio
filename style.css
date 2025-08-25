@@ -84,7 +84,7 @@ h2 {
   gap: 20px;
   padding: 15px;
   /*background: #000000;*/
-  background-color: black;
+  /*background-color: black; */
 }
 
 .school-card {
@@ -92,7 +92,7 @@ h2 {
     /* #ddd; */
   padding: 25px;
   border-radius: 12px;
-  background-color: black;
+  background: black;
   transition: box-shadow 0.2s;
 }
 
