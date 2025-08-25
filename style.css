@@ -9,7 +9,8 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
-  background-color: #fdfdfd;
+  background-color: #000000;
+  /* #fdfdfd; */
   color: #333;
   max-width: 900px;
   margin: auto;
