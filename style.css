@@ -39,6 +39,21 @@ h2 {
   margin: 20px 0 10px 0;
 }
 
+.classes ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.classes li {
+  background-color: #bfe9f5;
+    /* #efefef; */
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.6rem;
+}
+
 .skills ul {
   list-style: none;
   display: flex;
