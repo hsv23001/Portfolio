@@ -92,7 +92,7 @@ h2 {
     /* #ddd; */
   padding: 25px;
   border-radius: 12px;
-  background-color: #000000;
+  background-color: black;
   transition: box-shadow 0.2s;
 }
 
