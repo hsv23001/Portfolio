@@ -70,7 +70,7 @@ h2 {
     /* #efefef; */
   padding: 6px 12px;
   border-radius: 8px;
-  font-color: #000;
+  color: #000;
 }
 
 .projects {
@@ -110,6 +110,7 @@ h2 {
   border-radius: 12px;
   background: #fff;
   transition: box-shadow 0.2s;
+  color: #000;
 }
 
 .project-card:hover {
