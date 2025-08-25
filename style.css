@@ -26,7 +26,7 @@ header {
   height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 15px;
+  margin-bottom: 9px;
 }
 
 h1 {
@@ -58,6 +58,14 @@ h2 {
   grid-template-rows: 1fr 1fr;
   gap: 20px;
   padding: 10px;
+}
+
+.school-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 12px;
+  background: rgba(0,0,0,0.1);
+  transition: box-shadow 0.2s;
 }
 
 .project-card {
