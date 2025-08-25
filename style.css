@@ -24,6 +24,20 @@ header {
   margin-bottom: 20px;
 }
 
+.navbar a{
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  margin: 0 20px;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+  color: lightblue;
+  border-bottom: 3px solid lightblue;
+}
+
 .profile-pic {
   width: 140px;
   height: 140px;
