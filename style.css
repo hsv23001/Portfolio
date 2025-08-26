@@ -25,26 +25,37 @@ header {
 }
 
 .navbar {
-  display: flex;
+  display: inline;
   background-color: white;
   border-radius: 12px;
   gap: 20px;
-  text-align: center;
-  align: center;
-  width: 120%;
+  align-items: center;
+  width: 100%;
   padding: 6px 12px;
+  justify-content: space-between;
   font-size: 16px;
   color: black;
   font-weight: 500;
   margin: 0 20px;
   border-bottom: 3px solid transparent;
+  z-index: 100;
   transition: 0.3s ease;
+}
+
+.navbar a {
+  background-color: #bfe9f5;
+    /* #efefef; */
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #000;
 }
 
 .navbar a.hover,
 .navbar a.active{
   color: blue;
   border-bottom: 3px solid blue;
+  font-size: 18px;
 }
 
 .navbar ul {
@@ -54,14 +65,7 @@ header {
   gap: 10px;
 }
 
-.navbar a {
-  background-color: #bfe9f5;
-    /* #efefef; */
-  padding: 6px 10px;
-  border-radius: 6px;
-  font-size: 10px;
-  color: #000;
-}
+
 
 .profile-pic {
   width: 140px;
