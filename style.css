@@ -24,7 +24,7 @@ header {
   margin-bottom: 20px;
 }
 
-.navbar a{
+.navbar {
   background-color: white;
   padding: 6px 12px;
   font-size: 16px;
@@ -34,7 +34,7 @@ header {
   border-bottom: 3px solid transparent;
   transition: 0.3s ease;
 }
-.navbar a:hover,
+
 .navbar a.active{
   color: lightblue;
   border-bottom: 3px solid lightblue;
