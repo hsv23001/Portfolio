@@ -24,6 +24,7 @@ header {
   margin-bottom: 20px;
   color: white;
 }
+
 .navbar {
   display: flex;
   background-color: #383838;
@@ -98,10 +99,11 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin: 0 auto;
 }
 
 .skills li {
-  background-color: #bfe9f5;
+  background-color: #5BD3F5;
     /* #efefef; */
   padding: 6px 12px;
   border-radius: 8px;
