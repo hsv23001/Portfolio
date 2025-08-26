@@ -99,7 +99,9 @@ h2 {
 }
 
 .courses-list {
-  flex-wrap: nowrap;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .courses-list h4 {
@@ -110,13 +112,14 @@ h2 {
   justify-content: space-between;
   flex-wrap: nowrap;
   list-style: none;
-  /* display: flex; */
+  display: flex;
   flex-direction: row;
-  margin: auto, 40px;
+  margin: auto 40px;
 }
 
 .courses-list li {
   background-color: #bfe9f5;
+  flex-direction: column;
   text-align: center;
   border-color: black;
   padding: 6px 10px;
