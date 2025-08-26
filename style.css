@@ -25,6 +25,7 @@ header {
 }
 
 .navbar {
+  display: flex;
   background-color: white;
   border-radius: 12px;
   gap: 20px;
@@ -44,6 +45,22 @@ header {
 .navbar a.active{
   color: blue;
   border-bottom: 3px solid blue;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.navbar li {
+  background-color: #bfe9f5;
+    /* #efefef; */
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 10px;
+  color: #000;
 }
 
 .profile-pic {
