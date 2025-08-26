@@ -100,33 +100,36 @@ h2 {
 
 .courses-list {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 20px;
 }
 
 .courses-list h4 {
   padding-left: 35px;
-} 
+}
 
 .courses-list ul {
+  display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  margin: auto 40px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .courses-list li {
   background-color: #bfe9f5;
-  flex-direction: column;
   text-align: center;
-  border-color: black;
+  border: 1px solid black;
   padding: 6px 10px;
   border-radius: 6px;
   font-size: 0.9rem;
   width: 30%;
 }
+
 
 .skills ul {
   list-style: none;
