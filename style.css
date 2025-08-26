@@ -97,16 +97,19 @@ h2 {
   color: #000;
 }
 
+.courses-list {
+  margin: auto, 40px;
+}
+
 .courses-list h4 {
   padding-left: 30px;
-  /*margin:flex; */
 } 
 
 .courses-list ul {
   justify-content: space-between;
   list-style: none;
   display: flex;
-  margin: auto, 40px;
+  /* margin: auto, 40px; */
 }
 
 .courses-list li {
