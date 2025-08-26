@@ -9,7 +9,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
-  background-color: #000000;
+  background-color: white;
   /* #fdfdfd; */
   color: #dbdbdb;
   /* #333 */
@@ -44,7 +44,7 @@ header {
 }
 
 .navbar a {
-  background-color: #bfe9f5;
+  background-color: #CFF0FA;
   padding: 6px 10%;
   border-radius: 15px;
   font-size: 16px;
@@ -55,9 +55,10 @@ header {
 
 .navbar a:hover,
 .navbar a.active {
-  color: blue;
+  /*color: blue;*/
+  background-color: #A3EAFF;
   border-bottom: 3px solid blue;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .profile-pic {
