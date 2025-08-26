@@ -97,6 +97,10 @@ h2 {
   color: #000;
 }
 
+.classeslist li.img {
+  align: center;
+}
+
 .courses-list {
   margin: auto, 60px;
 }
