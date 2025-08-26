@@ -27,13 +27,13 @@ header {
 
 .navbar {
   display: flex;
+  justify-content: space-between;
   background-color: #383838;
   border-radius: 6px;
   /* gap: 10px; */
   align-items: center;
   /* width: 100%; */
   /* padding: 0 20px; */
-  justify-content: space-between;
   font-size: 16px;
   color: black;
   /* font-weight: 500; */
@@ -45,7 +45,7 @@ header {
 
 .navbar a {
   background-color: #bfe9f5;
-  padding: 6px 80px;
+  padding: 6px 15%;
   border-radius: 6px;
   font-size: 16px;
   color: #000;
