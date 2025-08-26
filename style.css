@@ -98,6 +98,10 @@ h2 {
   flex-wrap: nowrap;
 }
 
+.courses-list {
+  flex-wrap: nowrap;
+}
+
 .courses-list h4 {
   padding-left: 35px;
 } 
