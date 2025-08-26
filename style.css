@@ -134,7 +134,8 @@ h2 {
 .courses-list li:hover {
   box-shadow: 0px 3px 8px #bfe9f5;
     /* rgba(0,0,0,0.1); */
-  border-color: black;
+  /* border-color: black; */
+  border-bottom: 3px solid blue;
 }
 
 
