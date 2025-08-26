@@ -105,6 +105,7 @@ h2 {
   justify-content: space-between;
   list-style: none;
   display: flex;
+  margin: auto, 40px;
 }
 
 .courses-list li {
