@@ -26,8 +26,11 @@ header {
 
 .navbar {
   background-color: white;
+  border-radius: 12px;
+  width: 100%;
   padding: 6px 12px;
   font-size: 16px;
+  font-color: black;
   color: black;
   font-weight: 500;
   margin: 0 20px;
@@ -37,8 +40,8 @@ header {
 
 .navbar a.hover,
 .navbar a.active{
-  color: lightblue;
-  border-bottom: 3px solid lightblue;
+  color: blue;
+  border-bottom: 3px solid blue;
 }
 
 .profile-pic {
