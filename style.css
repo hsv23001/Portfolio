@@ -50,6 +50,7 @@ header {
   padding: 15px 10%;
   border-radius: 20px;
   font-size: 16px;
+  flex-wrap: wrap;
   color: #000;
   text-decoration: none; /* Remove underline */
   transition: all 0.3s ease;
@@ -97,10 +98,6 @@ h2 {
   color: #000;
 }
 
-.courses-list {
-  margin: auto, 60px;
-}
-
 .courses-list h4 {
   padding-left: 35px;
 } 
@@ -109,7 +106,7 @@ h2 {
   justify-content: space-between;
   list-style: none;
   /* display: flex; */
-  /*margin: auto, 40px;*/
+  margin: auto, 40px;
 }
 
 .courses-list li {
