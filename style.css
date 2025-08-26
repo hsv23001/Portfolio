@@ -82,14 +82,14 @@ h2 {
   margin: 20px 0 10px 0;
 }
 
-.classeslist ul {
+.classes-list ul {
   list-style: none;
   display: flex;
   /* flex-wrap: wrap; */
   gap: 10px;
 }
 
-.classeslist li {
+.classes-list li {
   background-color: #bfe9f5;
     /* #efefef; */
   padding: 6px 10px;
