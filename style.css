@@ -54,7 +54,7 @@ header {
   gap: 10px;
 }
 
-.navbar li {
+.navbar a {
   background-color: #bfe9f5;
     /* #efefef; */
   padding: 6px 10px;
