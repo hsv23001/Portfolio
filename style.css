@@ -93,12 +93,12 @@ h2 {
     /* #efefef; */
   padding: 6px 10px;
   border-radius: 6px;
-  font-size: 12px;
+  font-size: 13px;
   color: #000;
 }
 
 .courses-list img {
-  margin: 0 auto;
+  margin: 0, auto;
 }
 
 .courses-list {
