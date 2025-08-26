@@ -97,10 +97,6 @@ h2 {
   color: #000;
 }
 
-.courses-list img {
-  margin: 0, auto;
-}
-
 .courses-list {
   margin: auto, 60px;
 }
@@ -118,6 +114,8 @@ h2 {
 
 .courses-list li {
   background-color: #bfe9f5;
+  flex-direction: column;
+  text-align: center;
   border-color: black;
   padding: 6px 10px;
   border-radius: 6px;
