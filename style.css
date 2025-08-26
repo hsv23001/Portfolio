@@ -102,6 +102,7 @@ h2 {
 } 
 
 .courses-list ul {
+  justify-content: space-between;
   list-style: none;
   display: flex;
 }
