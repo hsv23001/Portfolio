@@ -47,12 +47,13 @@ header {
   background-color: #bfe9f5;
     /* #efefef; */
   padding: 6px 10px;
+  text-decoration: none;
   border-radius: 6px;
   font-size: 16px;
   color: #000;
 }
 
-.navbar a.hover,
+.navbar a:hover,
 .navbar a.active{
   color: blue;
   border-bottom: 3px solid blue;
