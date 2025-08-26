@@ -28,7 +28,7 @@ header {
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: #383838;
+  background-color: black;
   /*border-radius: 6px;*/
   /* gap: 10px; */
   align-items: center;
@@ -45,8 +45,8 @@ header {
 
 .navbar a {
   background-color: #bfe9f5;
-  padding: 6px 15%;
-  /*border-radius: 6px;*/
+  padding: 6px 10%;
+  border-radius: 15px;
   font-size: 16px;
   color: #000;
   text-decoration: none; /* Remove underline */
