@@ -24,9 +24,8 @@ header {
   margin-bottom: 20px;
   color: white;
 }
-
 .navbar {
-  display: inline;
+  display: flex;
   background-color: black;
   border-radius: 12px;
   gap: 50px;
@@ -45,29 +44,20 @@ header {
 
 .navbar a {
   background-color: #bfe9f5;
-    /* #efefef; */
   padding: 6px 10px;
-  text-decoration: none;
   border-radius: 6px;
   font-size: 16px;
   color: #000;
+  text-decoration: none; /* Remove underline */
+  transition: all 0.3s ease;
 }
 
 .navbar a:hover,
-.navbar a.active{
+.navbar a.active {
   color: blue;
   border-bottom: 3px solid blue;
   font-size: 18px;
 }
-
-.navbar ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-
 
 .profile-pic {
   width: 140px;
