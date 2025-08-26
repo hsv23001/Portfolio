@@ -121,13 +121,19 @@ h2 {
 }
 
 .courses-list li {
-  background-color: #bfe9f5;
+  background-color: white;
   text-align: center;
   border: 1px solid black;
   padding: 6px 10px;
   border-radius: 6px;
+  border-color: 0;
   font-size: 0.9rem;
   width: 30%;
+}
+
+.courses-list li:hover {
+  box-shadow: 0px 3px 8px #bfe9f5;
+    /* rgba(0,0,0,0.1); */
 }
 
 
