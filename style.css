@@ -96,9 +96,10 @@ h2 {
   color: #000;
 }
 
-/* .courses-list {
-  display:flex;
-} */
+.courses-list h4 {
+  padding-left: 30px;
+  /*margin:flex; */
+} 
 
 .courses-list ul {
   list-style: none;
@@ -111,8 +112,8 @@ h2 {
   padding: 6px 10px;
   border-radius: 6px;
   font-size: 12px;
+  width: 30%;
 }
-  
 
 .skills ul {
   list-style: none;
