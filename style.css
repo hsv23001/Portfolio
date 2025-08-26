@@ -96,6 +96,24 @@ h2 {
   color: #000;
 }
 
+/* .courses-list {
+  display:flex;
+} */
+
+.courses-list ul {
+  list-style: none;
+  display: flex;
+}
+
+.courses-list li {
+  background-color: #bfe9f5;
+  border-color: black;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+  
+
 .skills ul {
   list-style: none;
   display: flex;
