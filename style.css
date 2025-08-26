@@ -27,6 +27,7 @@ header {
 .navbar {
   background-color: white;
   border-radius: 12px;
+  text-align: center;
   width: 120%;
   padding: 6px 12px;
   font-size: 16px;
