@@ -130,14 +130,17 @@ h2 {
   border-bottom: 3px solid blue;
 }
 
+.skills {
+  align-items:center; 
+}
 
 .skills ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin: 25px auto;
-  align-items: center;
+  /* margin: 0 auto; */
+  /* align-items: center; */
 }
 
 .skills li {
