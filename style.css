@@ -45,7 +45,7 @@ header {
   background-color: #CFF0FA;
   padding: 15px 10%;
   border-radius: 20px;
-  font-size: 16px;
+  font-size: 1rem; /*16px */
   flex-wrap: wrap;
   color: #000;
   text-decoration: none; /* Remove underline */
@@ -57,7 +57,6 @@ header {
   /*color: blue;*/
   background-color: #A3EAFF;
   border-bottom: 3px solid blue;
-  /*font-size: 17px;*/
 }
 
 .profile-pic {
@@ -89,7 +88,7 @@ h2 {
     /* #efefef; */
   padding: 6px 10px;
   border-radius: 6px;
-  font-size: 12px;
+  font-size: 0.75;
   color: #000;
   flex-wrap: nowrap;
 }
@@ -149,7 +148,7 @@ h2 {
     /* #efefef; */
   padding: 6px 12px;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 0.9rem;
   color: black;
 }
 
