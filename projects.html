@@ -24,35 +24,70 @@
     <a href="projects.html" class = "active">Projects & Skills</a>
   </nav>
 
-
+  <p style = "text-align: center; color: red; font-size: 0.7rem;"> Page Under Construction </p>
   
-  <section class="projects">
 
-    <div class="project-card">
+<!-- <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a> -->
+
+
+  <div class="projects">
+  <div class="project-card" onclick="toggleExpand(this)">
+    <div class="project-card-header">
       <h3>RShiny Education Application</h3>
-      <p>Built an RShiny application focused on confidence, prediction, & tolerance intervals to bridge the gap between statisticians and lab scientists.</p>
-      <!-- <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a> -->
+      <button class="expand-btn">➕</button>
     </div>
-    
-    <div class="project-card">
-      <h3><i> In Progress: </i>Country Data Analysis</h3>
-      <p>Pulled together available country-specific economic and general data from various sources, to explore which factors are most impactful to and predictive of net migration and happiness index.</p>
-      <!-- <a href="https://github.com/yourusername/project1" target="_blank">Example Link</a> -->
+    <p>Built an RShiny application focused on confidence, prediction, & tolerance intervals to bridge the gap between statisticians and lab scientists.</p>
+    <div class="project-card-details">
+      <p>In progress.</p>
+    </div>
     </div>
 
-    <div class="project-card">
+      <div class="project-card" onclick="toggleExpand(this)">
+    <div class="project-card-header">
+      <h3><i> In Progress: </i>Country Data Analysis </h3>
+      <button class="expand-btn">➕</button>
+    </div>
+    <p>Pulled together available country-specific economic and general data from various sources, to explore which factors are most impactful to and predictive of net migration and happiness index.</p>
+    <div class="project-card-details">
+      <p>In progress.</p>
+    </div>
+    </div>
+
+      <div class="project-card" onclick="toggleExpand(this)">
+    <div class="project-card-header">
       <h3>Data Mining Course Project: Machine Learning Models Predicting NFL Playoff Success</h3>
-      <p>Implemented machine learning methods on offensive and defensive statistics, including K Nearest Neighbors, LOESS, GAM, and Support Vector Machines in R to predict team NFL success.</p>
-      <!-- <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a> -->
+      <button class="expand-btn">➕</button>
+    </div>
+    <p>Implemented machine learning methods on offensive and defensive statistics, including K Nearest Neighbors, LOESS, GAM, and Support Vector Machines in R to predict team NFL success.</p>
+    <div class="project-card-details">
+      <p> <i>Selection of Plots: </i></p>
+      <img src="assets/EDA.png" alt="Profile picture" style = "width: 80%; display: block; margin: 0 auto">
+      <img src="assets/KNN_tune.png" alt="Profile picture" style = "width: 80%; display: block; margin: 0 auto">
+      <img src="assets/RF.png" alt="Profile picture" style = "width: 80%; display: block; margin: 0 auto">
+      <img src="assets/ROC.png" alt="Profile picture" style = "width: 80%; display: block; margin: 0 auto">
+    </div>
     </div>
 
-        <div class="project-card">
+      <div class="project-card" onclick="toggleExpand(this)">
+    <div class="project-card-header">
       <h3>Colloquium: Statistics in Daily Fantasy Sports</h3>
-      <p>Presented 30-minute colloquium communicating results of published paper using statistics to evaluate the role of skill in daily fantasy sports, and extended with a simulation and analysis in R.</p>
-      <!-- <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a> -->
+      <button class="expand-btn">➕</button>
     </div>
-  
-  </section>
+    <p> Presented 30-minute colloquium communicating results of published paper using statistics to evaluate the role of skill in daily fantasy sports, and extended with a simulation and analysis in R.</p>
+    <div class="project-card-details">
+      <p> <i> Subset of Slides: </i></p> 
+      <div class = "projects">
+      <div class = "project-card"> <img src="assets/Colloquium.png" alt="Profile picture"> </div>
+      <div class = "project-card"> <img src="assets/Colloquium (1).png" alt="Profile picture"> </div>
+      <div class = "project-card"> <img src="assets/Colloquium (2).png" alt="Profile picture"> </div>
+      <div class = "project-card"> <img src="assets/Colloquium (3).png" alt="Profile picture"> </div>
+      </div>
+
+      <p>Simulation Slides and Code</p>
+
+    </div>
+    </div>
+  </div>
   
   <section class="skills">
     <h3>Technical Skills</h3>
@@ -73,5 +108,6 @@
   <footer>
     <p>© 2025 Shea van den Broek · <a href="https://www.linkedin.com/in/shea-van-den-broek-a4a239204" target="_blank">LinkedIn</a></p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>

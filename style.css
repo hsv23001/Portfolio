@@ -33,7 +33,7 @@ header {
   font-size: 1rem;
   color: black;
   /* font-weight: 500; */
-  margin: 10px 40px;
+  /*margin: 10px 40px; */
   border-bottom: 3px solid transparent;
   transition: 0.3s ease;
 }
@@ -130,17 +130,12 @@ h2 {
   border-bottom: 3px solid blue;
 }
 
-.skills {
-  align-items:center; 
-}
-
 .skills ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  /* margin: 0 auto; */
-  /* align-items: center; */
+  margin: auto 7%;
 }
 
 .skills li {
@@ -155,27 +150,21 @@ h2 {
 .schools {
   margin: 15px auto;
   display: grid;
-  /* grid-template-rows: 1fr; */
   gap: 20px;
   padding: 15px;
   color: black;
-  /*background: #000000;*/
-  /*background-color: black; */
 }
 
 .school-card {
   border: 1px solid #dbdbdb;
-    /* #ddd; */
   padding: 25px;
   border-radius: 12px;
   background-color: white;
   transition: box-shadow 0.2s;
-  /*color: white;*/
 }
 
 .school-card:hover {
   box-shadow: 0px 3px 8px #bfe9f5;
-    /* rgba(0,0,0,0.1); */
 }
 
 .projects {
@@ -194,6 +183,49 @@ h2 {
   background: #fff;
   transition: box-shadow 0.2s;
   color: #000;
+}
+
+.project-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expand-btn {
+  border: none;
+  background: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.project-card-details {
+  display: none;
+  margin-top: 15px;
+}
+
+.project-card.expanded {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  /*max-width: 800px;*/
+  height: auto;
+  max-height: 90vh;
+  min-height: 50vh;
+  /* scroll bar if overflow */
+  overflow-y: auto;
+  /*background: #bfe9f5;*/
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+}
+
+.project-card.expanded .project-card-details {
+  display: block;
+}
+
+.project-card.expanded .expand-btn::after {
+  content: "➖";
 }
 
 .project-card:hover {
@@ -232,3 +264,9 @@ footer a {
   }
 }
 
+
+
+.small-img img {
+  width: 100px;
+  height: auto;
+}
